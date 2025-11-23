@@ -7,7 +7,7 @@ SRC_DIR = src
 INCLUDE_DIR = include
 OBJ_DIR = obj
 BIN_DIR = bin
-PROJ_NAME = empty-vs-void
+PROJ_NAME = regex
 
 SRCS = $(wildcard $(INCLUDE_DIR)/*.h $(SRC_DIR)/*.c)
 OBJS = $(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRCS))
