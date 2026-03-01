@@ -1,9 +1,9 @@
 #include <stdlib.h>
 
 int main( int argc, char *argv[] ) {
-   // west const
+   // west const - look right and that is what is actually made constant
    /* const int x = 5; */
-   // east const - look right and that is what is actually made constant
+   // east const - look left and that is what is actually made constant
    int const x = 5;
    // not valid
    /* x = 10; */
