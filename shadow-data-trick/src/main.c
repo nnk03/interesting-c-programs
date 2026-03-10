@@ -52,9 +52,11 @@ typedef struct {
 
 int main( int argc, char *argv[] ) {
    int *numbers = NULL;
-   for ( int i = 0; i < 10; ++i ) {
-      arr_push( numbers, i );
-   }
+   arr_push( numbers, 1 );
+   arr_push( numbers, 2 );
+   arr_push( numbers, 3 );
+   arr_push( numbers, 4 );
+   arr_push( numbers, 5 );
    for ( int i = 0; i < arr_len( numbers ); ++i ) {
       printf( "%d\n", numbers[ i ] );
    }
